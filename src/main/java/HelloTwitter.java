@@ -89,7 +89,7 @@ public class HelloTwitter {
         System.out.println("Protection: " + user.isProtected());
     }
 
-    
+
     void printFollowersFollowedBack() throws TwitterException {
         long cursor = -1;
         PagableResponseList<User> listOfFollowers;
