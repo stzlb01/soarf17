@@ -8,6 +8,7 @@
     <artifactId>soarf17</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <dependencies>
         <dependency>
             <groupId>org.twitter4j</groupId>
@@ -15,7 +16,16 @@
             <version>[4.0,)</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>[3.0,)</version>
+        </dependency>
+
+
+
     </dependencies>
 
 
 </project>
+
